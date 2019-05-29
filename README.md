@@ -9,10 +9,12 @@
 
 >启动
 
+```shell
+cd app
+node install
 node app.js
-
 http://localhost:3000/static/index.html
-
+```
 
 ## api
 
@@ -22,7 +24,9 @@ http://localhost:3000/static/index.html
 
 >启动
 
+```shell
+cd api
+node install
 node api.js
-
 http://127.0.0.1:2000/documentation
-
+```
